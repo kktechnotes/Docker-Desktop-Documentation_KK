@@ -6,4 +6,4 @@ relative_links:
 include:
   - Content_Outline.md
   - Things-to-Improve.md
-theme: jekyll-theme-dinky
+theme: jekyll-theme-cayman
