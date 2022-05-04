@@ -1,5 +1,5 @@
 
-# Docker Guide Content Outline
+# Docker Installation Guide - Content Outline
 > Disclaimer: From Information Architecture perspective, the process of installation of Docker should follow the listed outline for improved readibility.
 1. Cover Page
 2. Copyright Information
@@ -18,7 +18,7 @@
     1. Install Docker Desktop through Web or GUI
     2. Install Docker Desktop through Command-Line Interface
 9. Post Installation
-    1. Check Docker Location
+    1. Check Docker Directory Location
     2. Check Docker Version
 10. Run your First Application on Docker Desktop
 11. Uninstalling Docker
