@@ -1,5 +1,5 @@
 # Docker Desktop - Installation
-This repository contains documentation on docker installation, configuration and troubleshooting steps.
+This repository contains Docker Desktop installation, configuration and troubleshooting steps.
 > Note: Refer sample [Content Outline.md](./Content_Outline.md) for Installation Guide.
 ## Content Outline for Assignment
 1. Copyright Information
