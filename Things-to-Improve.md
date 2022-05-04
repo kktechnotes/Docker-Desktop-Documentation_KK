@@ -1,8 +1,11 @@
 This topic lists the improvements that should be made in the existing Docker documentation for better readibility and understanding.
 <br/>
 1. Content Outline is neither user friendly nor readable. Please refer [Content Outline.md](https://github.com/kktechnotes/Oracle-Test/blob/main/Content_Outline.md) topic to see an improved version.
-2. The semantics of dividing a topic into Concept, Task and Reference information is not followed.
-3. Information Flow in the TOC is incorrect <br/>
+2. The document is not divided based on perspective or Role-based. From basic to advance, every little detail is provided in one web file. <br/>
+**Example**: 
+	The roles can be Developers, Integration Engineers, Student, DevOps Engineer 
+4. The semantics of dividing a topic into Concept, Task and Reference information is not followed.
+5. Information Flow in the TOC is incorrect <br/>
 **Example**: 
 	- System Requirements should be explained before Installation Steps
 	- Prerequisites to run the Docker Desktop is missing. WSL2 is mandatory but it is mentioned in another topic 
