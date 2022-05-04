@@ -1,4 +1,4 @@
-This topic lists the improvements that should be made in the existing Docker document for better readibility and understanding.
+This topic lists the improvements that should be made in the existing Docker documentation for better readibility and understanding.
 <br/>
 1. Content Outline is neither user friendly nor readable. Please refer [Content Outline.md](https://github.com/kktechnotes/Oracle-Test/blob/main/Content_Outline.md) topic to see an improved version.
 2. The semantics of dividing a topic into Concept, Task and Reference information is not followed.
