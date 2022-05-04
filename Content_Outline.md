@@ -19,13 +19,13 @@
    - For Linux
    - For Mac
 7. Installing Docker Desktop
-    1. Installing Docker Desktop on Linux
+    1. Installing Docker Desktop on Windows
         - Install Docker Desktop through Web or GUI
         - Install Docker Desktop through Command-Line Interface
      2. Installing Docker Desktop on Linux
-     3. Installing Docker Desktop on Windows
+     3. Installing Docker Desktop on Mac
 8. Starting Docker Desktop
-9. Running Sample Tutorial
+9. Running Sample Tutorial through CLI
 10. Lab: Running the Container Image on an Application on Docker Desktop
 11. Updating Docker Desktop
 13. Uninstalling Docker
