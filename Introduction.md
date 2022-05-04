@@ -11,7 +11,7 @@ This guide is developed for anyone who needs to install and work on Docker Deskt
 |             Date      |  Document Version Number   |   Documentation Updates        |
 |-----------------------|----------------------------|--------------------------------|
 | 05-05-2022            | v 1.0                      | First Draft                    |           
-| 05-06-2022            | v 1.1                      | Added Things to Improve section|                 
+| 05-06-2022            | v 1.1                      | Added **Things to Improve** section|                 
                
 
 ## Reference Links
