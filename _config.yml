@@ -1,1 +1,9 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - Content_Outline.md
+  - Things-to-Improve.md
 theme: jekyll-theme-dinky
