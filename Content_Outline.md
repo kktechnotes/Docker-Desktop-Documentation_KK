@@ -1,6 +1,6 @@
 
 # Docker Desktop Installation Guide - Content Outline
-> **Disclaimer**: From Information Architecture perspective, the process of installation of Docker Desktop should follow the listed outline for improved readibility.
+ **Disclaimer**: From Information Architecture perspective, the process of installation of Docker Desktop should follow the listed outline for improved readibility.
 1. Cover Page
 2. Copyright Information
 3. Introduction
