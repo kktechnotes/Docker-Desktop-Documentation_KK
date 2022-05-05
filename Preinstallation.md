@@ -1,5 +1,5 @@
 # Preinstallation
-This topic describes the prerequisites required to install Docker Desktop on Windows.
+This topic describes the system requirements and prerequisites required to install Docker Desktop on Windows.
 ## System Requirements
 Before installing the Docker Desktop application, your system must meet the following hardware and software requirements:
 - **RAM**: 4GB or above
@@ -8,12 +8,11 @@ Before installing the Docker Desktop application, your system must meet the foll
   - Windows 11 (64-bit): Home or Pro version 21H2 or higher, or Enterprise or Education version 21H2 or higher.
   - Windows 10 64-bit: Home or Pro 2004 (build 19041) or higher, or Enterprise or Education 1909 (build 18363) or higher.
 - **Additional Configuration**: You must congifure the following components:
+  - Enable Virtualization support at BIOS level
   - Enable Virtualization and Windows Subsystem for Linux (WSL) on Windows
   - Install WSL 2 on Windows
-  - Enable Virtualization support at BIOS level
-
 ## Setup: Enable Virtualization and WSL on Windows
-> **Note**: You must have administrator permissions.
+> **Note**: You must have Windows administrator permissions.
 1. Open **Control Panel**
 2. Search "Turn Windows feature on or off." The **Windows Feature** pop-up window is displayed
 3. Select **Virtual Machine Platform** and select **Windows Subsystem for Linux**
@@ -32,12 +31,7 @@ This section explains steps to enable WSL 2 on Windows Operating System
     ```
     wsl --set-default-version 2
     ```
-  The message, "The operation is completed successfully," is displayed.
-7. To change the version of linux distributor, type or copy the following command.
-   ```
-   wsl --set-version <distro name> 
-   ```
- **Example**: To install Kali-Linux, type `wsl --set-version kali-linux 2`
+  **Result**: The message, "The operation is completed successfully," is displayed.
 ## Enable Virtualization at BIOS level
 This section explains the steps required to enable Virtualization feature at BIOS-level.
 > **Tip**: Before installation, you can perform the [steps to check](#check-bios-virtualizatio-enablement-on-your-system) if you already have Virtualization feature enabled on your system.
@@ -60,4 +54,4 @@ Use the arrow keys to select the Configuration tab, and then select Virtualizati
 ### Check BIOS Virtualization Enablement on your system
 1. Press `Ctrl + Alt + Delete` keys on your keyboard. The Task Manager is displayed
 2. Go to the **Performance** tab
-3. Check if Virtualization field is Enabled. The system should display `Virtualization: Enabled`
+3. Check if Virtualization field is enabled. The system should display `Virtualization: Enabled`
