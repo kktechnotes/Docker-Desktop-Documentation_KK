@@ -33,9 +33,9 @@ This section describes the steps to run your first sample application. For demon
 1. Open "Windows PowerShell" inside the **apps** folder.
 2. Type the following command
     ```
-     docker build -t getting-started-komal .
+     docker build -t komal-getting-started .
     ```
- ![run_command](./docker_images/Run_Sample.png)
+
  > **Note**: You can replace "komal-getting-started" with any meaningful name.
 
  ## Step 4: Run a Container Image of the Sample Application
@@ -44,6 +44,7 @@ This section describes the steps to run your first sample application. For demon
      docker run -dp 90:3000 komal-getting-started
     ```
     A unique container ID is up and running.
+     ![run_command](./docker_images/Run_Sample.png)
  2. To check the status, type `docker ps -a`. A list of container images running on the system is displayed.
  3. Open browser and type `http://localhost:90`. The application runs successfully.
 ![sampleapp](./docker_images/sample%20app.png)
