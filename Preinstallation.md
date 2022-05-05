@@ -58,3 +58,5 @@ This section explains the steps required to install WSL 2 on Windows
 1. Press `Ctrl + Alt + Delete` keys on your keyboard. The Task Manager is displayed
 2. Go to the **Performance** tab
 3. Check if Virtualization field is enabled. The system should display `Virtualization: Enabled`
+
+> **Next Page**: [Installation](./Installation.md)
