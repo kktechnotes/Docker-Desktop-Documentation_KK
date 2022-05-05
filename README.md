@@ -4,7 +4,7 @@ This repository contains Docker Desktop installation, configuration and troubles
 ## Content Outline for Assignment
 1. Copyright Information
 2. [Introduction](./Introduction.md)
-3. Overview of Docker Desktop
+3. Overview of Docker Desktop Installation
 4. Docker Desktop Preinstallation Tasks
 5. Installing Docker Desktop on Windows using GUI
 6. Getting Started Docker Desktop
