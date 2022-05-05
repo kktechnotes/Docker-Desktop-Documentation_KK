@@ -38,8 +38,8 @@ This section explains the steps required to install WSL 2 on Windows
 > **Before you Begin**: You must enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-1---enable-the-windows-subsystem-for-linux) and [Check requirements for running WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-2---check-requirements-for-running-wsl-2) on your system. Also you must have administrator permissions.  <br/>
 1. Download the [Linix Kernel Update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) package. The Windows Installer Package is downloaded. 
 2. Double-click the package and follow the instructions.
-3. Click **Finish**. The WSL 2 package is installed on the sytem.
-4. Press the Windows key on your keyboard and type "Windows Powershell" in the search box
+3. Click **Finish**. The WSL 2 package is installed on the system.
+4. Press the Windows key on your keyboard and type "Windows PowerShell" in the search box
 5. Type or copy/paste the following command
     ```
     wsl --set-default-version 2
@@ -49,7 +49,7 @@ This section explains the steps required to install WSL 2 on Windows
 
 ### Check WSL 2 Enablement on your System
 1. Press the Windows key on your keyboard
-2. In the search box, type "Windows Powershell"
+2. In the search box, type "Windows PowerShell"
 3. Type or copy/paste the following command
     ```
     wsl --status
