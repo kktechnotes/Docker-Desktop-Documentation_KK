@@ -17,7 +17,7 @@ Before installing the Docker Desktop application, your system must meet the foll
 1. Open **Control Panel**
 2. Search "Turn Windows feature on or off." The **Windows Feature** pop-up window is displayed
 3. Select **Virtual Machine Platform** and select **Windows Subsystem for Linux**
-4. Click OK
+4. Click **OK**
 
 ## Setup: Install WSL 2 on Windows Operating System
 This section explains steps to enable WSL 2 on Windows Operating System
@@ -29,13 +29,13 @@ This section explains steps to enable WSL 2 on Windows Operating System
 3. Click **Finish**. The WSL 2 package is installed on the sytem.
 4. Press the Windows key on your keyboard and type "Windows Powershell" in the search box
 5. Type or copy/paste the following command
-  ```
-  wsl --set-default-version 2
-  ```
-**Result**: The message, "The operation is completed successfully," is displayed.
-6. To change the version of linux distributor, type or copy the following command.
+    ```
+    wsl --set-default-version 2
+    ```
+  The message, "The operation is completed successfully," is displayed.
+7. To change the version of linux distributor, type or copy the following command.
    ```
-   wsl --set-version <distro name> 2
+   wsl --set-version <distro name> 
    ```
  **Example**: To install Kali-Linux, type `wsl --set-version kali-linux 2`
 ## Enable Virtualization at BIOS level
@@ -52,11 +52,9 @@ Use the arrow keys to select the Configuration tab, and then select Virtualizati
 1. Press the Windows key on your keyboard
 2. In the search box, type "Windows Powershell"
 3. Type or copy/paste the following command
-```
-{
-wsl --status
-}
-```
+    ```
+    wsl --status
+    ```
 **Result**: If WSL 2 is enabled, then `Default Version: 2` is displayed.
 
 ### Check BIOS Virtualization Enablement on your system
