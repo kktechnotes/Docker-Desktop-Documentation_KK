@@ -4,6 +4,7 @@ relative_links:
   enabled: true
   collections: true
 include:
+  - ReadMe.md
   - Content_Outline.md
   - Things-to-Improve.md
 theme: jekyll-theme-cayman
