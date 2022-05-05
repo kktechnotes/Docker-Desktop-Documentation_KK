@@ -15,7 +15,7 @@ Before installing the Docker Desktop application, your system must meet the foll
 ## Setup: Enable Virtualization at BIOS level
 This section explains the steps required to enable Virtualization feature at BIOS-level.
 > **Tip**: Before installation, you can perform the [steps to check](#check-bios-virtualizatio-enablement-on-your-system) if you already have Virtualization feature enabled on your system.
-> **Note**: The steps explained are based on HP laptop. Some of the steps may vary based on the system brand used.
+> **Note**: The steps explained are based on HP laptop. Some of the steps may vary based on the system brand used. <br/>
 1. Turn on the computer, and then press f10 on your keyboard.
 2. Use the arrow keys to select the **Configuration** tab, and then select **Virtualization Technology**.
 3. Choose **Enable**.
@@ -23,7 +23,7 @@ This section explains the steps required to enable Virtualization feature at BIO
 
 ## Setup: Enable Virtualization and WSL Features on Windows
 This section explains the steps required to enable Virtualization and WSL feature on Windows.
-> **Note**: You must have Windows administrator permissions.
+> **Note**: You must have Windows administrator permissions.  <br/>
 1. Open **Control Panel**.
 2. Search "Turn Windows feature on or off." The **Windows Feature** pop-up window is displayed.
 3. Select **Virtual Machine Platform** and select **Windows Subsystem for Linux**.
@@ -31,9 +31,9 @@ This section explains the steps required to enable Virtualization and WSL featur
 
 ## Setup: Install WSL 2 on Windows Operating System
 This section explains the steps required to install WSL 2 on Windows
-> **Tip**: Before installation, you can perform the [steps to check](#check-wsl-2-enablement-on-your-system) if you already have WSL2 enabled on your system.
+> **Tip**: Before installation, you can perform the [steps to check](#check-wsl-2-enablement-on-your-system) if you already have WSL2 enabled on your system.  <br/>
 
-> **Before you Begin**: You must enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-1---enable-the-windows-subsystem-for-linux) and [Check requirements for running WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-2---check-requirements-for-running-wsl-2) on your system and you must have administrator rights .
+> **Before you Begin**: You must enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-1---enable-the-windows-subsystem-for-linux) and [Check requirements for running WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-2---check-requirements-for-running-wsl-2) on your system and you must have administrator permissions.  <br/>
 1. Download the [Linix Kernel Update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) package. The Windows Installer Package is downloaded. 
 2. Double-click the package and follow the instructions.
 3. Click **Finish**. The WSL 2 package is installed on the sytem.
