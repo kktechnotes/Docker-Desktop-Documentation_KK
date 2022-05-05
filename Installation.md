@@ -4,7 +4,7 @@ The following tasks must be completed in the listed order:
 ## Step 1: Download and Install Docker Desktop on Windows through GUI
 1. Download [Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe) for Windows installer.
 2. Double-click the installer package to run the installer.
-3. On the **Configuration** page, select **Enable WSL 2 Windows Feature** and then click **OK**. The installation component and its dependencies gets automatically installed.
+3. On the **Configuration** page, select **Enable WSL 2 Windows Feature** and then click **OK**. The installation component and its dependencies get automatically installed.
 4. After installation, click the **Close and Log out** button. The installer application is closed and the current user is logged out.
 > **Note**: After installation, you may choose to restart the system.
 
@@ -22,7 +22,7 @@ The following tasks must be completed in the listed order:
  5. Review the [Service Agreement](https://docs.docker.com/subscription/#docker-desktop-license-agreement) and select the "I accept the terms" checkbox.
     ![Agreement](./docker_images/Aggreement.png)
  6. Click **Accept**. Docker starts running and a message, "Docker is running" is displayed.
- > **Tip**: You can also check the docker status from the **Show hiddden icons** widget located on the bottom-right of taskbar.
+ > **Tip**: You can also check the docker status from the **Show hidden icons** widget located on the bottom-right of taskbar.
  >          ![docker running](./docker_images/docker%20running.png)
 
 ## Step 3: Run Sample Tutorial using Docker
