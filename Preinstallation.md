@@ -4,13 +4,13 @@ This topic describes the prerequisites required to install Docker Desktop on Win
 Before installing the Docker Desktop application, your system must meet the following hardware and software requirements:
 - **RAM**: 4GB or above
 - **Processor**: 64-bit processor with [Second Level Address Translation (SLAT)](https://en.wikipedia.org/wiki/Second_Level_Address_Translation)
-- **Operating System**
+- **Operating System (OS)**
   - Windows 11 (64-bit): Home or Pro version 21H2 or higher, or Enterprise or Education version 21H2 or higher.
   - Windows 10 64-bit: Home or Pro 2004 (build 19041) or higher, or Enterprise or Education 1909 (build 18363) or higher.
 - **Additional Configuration**: You must congifure the following components:
   - Enable Windows Subsystem for Linux Version 2 (WSL 2) in Windows
   - Enable Virtualization support at BIOS level
-### Setup: Enable WSL 2 on Windows Operating System (OS)
+### Setup: Enable WSL 2 on Windows Operating System
 This section explains steps to enable WSL 2 in Windows Operating System
 > **Tip**: Before installation, you can perform the [steps to check](#check-wsl-2-on-your-system) if you already have WSL2 enabled on your system.
 
@@ -24,6 +24,11 @@ This section explains steps to enable WSL 2 in Windows Operating System
   wsl --set-default-version 2
   ```
 **Result**: The message, "The operation is completed successfully," is displayed.
+6. To change the version of linux distributor, type or copy the following command.
+   ```
+   wsl --set-version <distro name> 2
+   ```
+ **Example**: To install Kali-Linux, type `wsl --set-version kali-linux 2`
 
 #### Check WSL 2 on your system
 1. Press the Windows key on your keyboard
