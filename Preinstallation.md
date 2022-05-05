@@ -7,19 +7,29 @@ Before installing the Docker Desktop application, your system must meet the foll
 - **Operating System (OS)**
   - Windows 11 (64-bit): Home or Pro version 21H2 or higher, or Enterprise or Education version 21H2 or higher.
   - Windows 10 64-bit: Home or Pro 2004 (build 19041) or higher, or Enterprise or Education 1909 (build 18363) or higher.
-- **Additional Configuration**: You must congifure the following components:
-  - Enable Virtualization support at BIOS level
-  - Enable Virtualization and Windows Subsystem for Linux (WSL) on Windows
-  - Install WSL 2 on Windows
+- **Additional Configuration**: You must setup the following components:
+  - [Enable Virtualization support at BIOS level](#setup-enable-virtualization-at-bios-level)
+  - [Enable Virtualization and Windows Subsystem for Linux (WSL) on Windows](#setup-enable-virtualization-and-wsl-on-windows)
+  - [Install WSL 2 on Windows](#setup-install-wsl-2-on-windows-operating-system)
+
+## Setup: Enable Virtualization at BIOS level
+This section explains the steps required to enable Virtualization feature at BIOS-level.
+> **Tip**: Before installation, you can perform the [steps to check](#check-bios-virtualizatio-enablement-on-your-system) if you already have Virtualization feature enabled on your system.
+> **Note**: The steps explained are based on HP laptop. Some of the steps may vary based on the system brand used.
+1. Turn on the computer, and then press f10 on your keyboard.
+2. Use the arrow keys to select the **Configuration** tab, and then select **Virtualization Technology**.
+3. Choose **Enable**.
+4. Press f10 on keyboard to save the settings.
+
 ## Setup: Enable Virtualization and WSL on Windows
 > **Note**: You must have Windows administrator permissions.
-1. Open **Control Panel**
-2. Search "Turn Windows feature on or off." The **Windows Feature** pop-up window is displayed
-3. Select **Virtual Machine Platform** and select **Windows Subsystem for Linux**
-4. Click **OK**
+1. Open **Control Panel**.
+2. Search "Turn Windows feature on or off." The **Windows Feature** pop-up window is displayed.
+3. Select **Virtual Machine Platform** and select **Windows Subsystem for Linux**.
+4. Click **OK**.
 
 ## Setup: Install WSL 2 on Windows Operating System
-This section explains steps to enable WSL 2 on Windows Operating System
+This section explains the steps required to enable WSL 2 on Windows Operating System
 > **Tip**: Before installation, you can perform the [steps to check](#check-wsl-2-enablement-on-your-system) if you already have WSL2 enabled on your system.
 
 > **Before you Begin**: You must enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-1---enable-the-windows-subsystem-for-linux) and [Check requirements for running WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-2---check-requirements-for-running-wsl-2) on your system and you must have administrator rights .
@@ -32,16 +42,7 @@ This section explains steps to enable WSL 2 on Windows Operating System
     wsl --set-default-version 2
     ```
   **Result**: The message, "The operation is completed successfully," is displayed.
-## Enable Virtualization at BIOS level
-This section explains the steps required to enable Virtualization feature at BIOS-level.
-> **Tip**: Before installation, you can perform the [steps to check](#check-bios-virtualizatio-enablement-on-your-system) if you already have Virtualization feature enabled on your system.
-> **Note**: The steps explained are based on HP laptop. Some of the steps may vary based on the system brand used.
-1. Turn on the computer, and then press f10 on your keyboard.
-2. Use the arrow keys to select the **Configuration** tab, and then select **Virtualization Technology**.
-3. Choose **Enable**.
-4. Press f10 on keyboard to save the settings.
 
-Use the arrow keys to select the Configuration tab, and then select Virtualization Technology.
 ### Check WSL 2 Enablement on your System
 1. Press the Windows key on your keyboard
 2. In the search box, type "Windows Powershell"
@@ -51,7 +52,7 @@ Use the arrow keys to select the Configuration tab, and then select Virtualizati
     ```
 **Result**: If WSL 2 is enabled, then `Default Version: 2` is displayed.
 
-### Check BIOS Virtualization Enablement on your system
+### Check BIOS Virtualization Enablement on your System
 1. Press `Ctrl + Alt + Delete` keys on your keyboard. The Task Manager is displayed
 2. Go to the **Performance** tab
 3. Check if Virtualization field is enabled. The system should display `Virtualization: Enabled`
