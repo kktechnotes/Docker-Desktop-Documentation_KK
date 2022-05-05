@@ -30,4 +30,5 @@ The following tasks must be completed in the listed to install Docker Desktop on
    docker run -dp 80:80 docker/getting-started
    ```
    **Result**: A unique container ID is created. <br/>
+   
    > **Note**: Refer the Troubleshooting section if you get an error response, "Ports are not available."
