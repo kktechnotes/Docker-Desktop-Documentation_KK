@@ -9,3 +9,7 @@ This repository contains Docker Desktop installation, configuration and troubles
 5. Installing and Running Docker Desktop on Windows using GUI
 6. Lab: Running Container Image of an Application on Docker Desktop
 7. Troubleshooting
+
+
+## Things to Improve
+ Refer the [Things to Improve](./Things-to-Improve.md) topic to view a list of changes required in the existing Docker Desktop documentation.
