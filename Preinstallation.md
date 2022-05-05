@@ -31,7 +31,7 @@ This section explains the steps required to enable Virtualization and WSL featur
 3. Select **Virtual Machine Platform** and select **Windows Subsystem for Linux**.
 4. Click **OK**.
 
-## Setup: Install WSL 2 on Windows Operating System
+## Setup: Install WSL 2 on Windows
 This section explains the steps required to install WSL 2 on Windows
 > **Tip**: Before installation, you can perform the [steps to check](#check-wsl-2-enablement-on-your-system) if you already have WSL2 enabled on your system.  <br/>
 
