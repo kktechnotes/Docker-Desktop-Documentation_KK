@@ -15,7 +15,9 @@ Before installing the Docker Desktop application, your system must meet the foll
 ## Setup: Enable Virtualization at BIOS level
 This section explains the steps required to enable Virtualization feature at BIOS-level.
 > **Tip**: Before installation, you can perform the [steps to check](#check-bios-virtualizatio-enablement-on-your-system) if you already have Virtualization feature enabled on your system.
-> **Note**: The steps explained are based on HP laptop. Some of the steps may vary based on the system brand used. <br/>
+
+> **Note**: The steps explained are based on HP laptop. Some of the steps may vary based on the system brand used.
+
 1. Turn on the computer, and then press f10 on your keyboard.
 2. Use the arrow keys to select the **Configuration** tab, and then select **Virtualization Technology**.
 3. Choose **Enable**.
