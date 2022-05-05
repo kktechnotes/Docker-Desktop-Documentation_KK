@@ -35,7 +35,7 @@ This section describes the steps to run your first sample application. For demon
     ```
      docker build -t getting-started-komal .
     ```
- 
+ ![run_command](./docker_images/Run_Sample.png)
  > **Note**: You can replace "getting-started-komal" with any meaningful name.
  
  ## Step 4: Run a Container Image of the Sample Application
@@ -43,7 +43,7 @@ This section describes the steps to run your first sample application. For demon
      ```
      docker run -dp 90:3000 getting-started-komal
     ```
-    A unique container ID is up and running
+    A unique container ID is up and running.
  2. To check the status, type `docker -p`. A list of container images running on the system is displayed.
  3. Open browser and type `http://localhost:90`. The application is accessed successfully.
 ![sampleapp](./docker_images/sample%20app.png)
