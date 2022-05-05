@@ -1,5 +1,7 @@
 # Introduction
 Docker is a standalone and a lightweight containerization platform. It uses the virtualization principle that lets you install and run applications using a shared Operating System. Docker Desktop is a GUI application that provides a 360-view of containerized applications and microservices running on Docker.
+Unlike Virtual Machines, docker 
+Dockers containers operate fast
 
 ## Purpose
 Using this guide, you can install Docker Desktop on your Windows system and run a sample containerized application on Docker.
