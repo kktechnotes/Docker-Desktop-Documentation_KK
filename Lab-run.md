@@ -37,7 +37,7 @@ This section describes the steps to run your first sample application. For demon
     ```
  ![run_command](./docker_images/Run_Sample.png)
  > **Note**: You can replace "getting-started-komal" with any meaningful name.
- <br/>
+
  ## Step 4: Run a Container Image of the Sample Application
  1. In the Windows PowerShell, type the following command
      ```
