@@ -1,4 +1,4 @@
-# Preinstallation
+# Docker Desktop Preinstallation Tasks
 This topic describes the system requirements and prerequisites required to install Docker Desktop on Windows.
 ## System Requirements
 Before installing the Docker Desktop application, your system must meet the following hardware and software requirements:
