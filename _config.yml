@@ -7,4 +7,11 @@ include:
   - README.md
   - Content_Outline.md
   - Things-to-Improve.md
+  - Introduction.md
+  - Preinstallation.md
+  - Installation.md
+  - Lab-run.md
+  - troubleshoot.md
+  - copyright.md
 theme: jekyll-theme-cayman
+markdown: GFM
