@@ -27,7 +27,7 @@ This section describes the steps to run your first sample application. For demon
     ```
   2. Save the file with name as `Dockerfile` without any extension and place it inside the **app** folder.
 
-> **Important**: The file name must be `Dockerfile` and must be placed insude the **app** folder.
+> **Important**: The file name must be `Dockerfile` and must be placed inside the **app** folder.
 
 ## Step 3: Build and Tag the Container Image
 1. Open "Windows PowerShell" inside the **apps** folder.
