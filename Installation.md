@@ -8,5 +8,16 @@ The following tasks must be completed to install Docker Desktop:
 4. After installation, click the **Close and Log out** button. The installer application is closed and the current user is logged out.
 > **Note**: After installation, you may choose to restart the system.
 
-## Step 2: Check Docker Version
-6. 
+## Step 2: Check Docker Version and Open the Docker Desktop Application
+1. Open **Powershell** on your system
+2. Type or copy/paste the following command:
+    ```
+    docker --version
+    ```
+    The result displays the version of the docker. <br/>
+    
+    > **Note**: In case the installation fails or docker is not completely installed, an error message, "The term 'docker' is not recognized" is displayed.
+ 3. Press the Windows key and type, "Docker Desktop" in the search field
+ 4. Open the application. The landing page
+ 5. 
+## Step 3: Run Sample Containerized Image of an Application using Docker
