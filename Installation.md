@@ -36,4 +36,4 @@ The following tasks must be completed in the listed order:
    > **Note**: Refer the [Troubleshooting](./troubleshoot.md) section if you get an error response, "Ports are not available."
 
 
-> **Next Page**: [Lab](./Lab%2Drun.md)
+> **Next Page**: [Lab](./Lab-run.md)
