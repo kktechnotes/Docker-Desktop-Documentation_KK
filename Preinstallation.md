@@ -39,7 +39,7 @@ This section explains the steps required to install WSL 2 on Windows
 1. Download the [Linix Kernel Update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) package. The Windows Installer Package is downloaded. 
 2. Double-click the package and follow the instructions.
 3. Click **Finish**. The WSL 2 package is installed on the system.
-4. Press the Windows key on your keyboard and type "Windows PowerShell" in the search box
+4. Press the Windows key on your keyboard and type "Windows PowerShell" in the search field.
 5. Type or copy/paste the following command
     ```
     wsl --set-default-version 2
@@ -48,8 +48,8 @@ This section explains the steps required to install WSL 2 on Windows
   ![wsl_version](./docker_images/wsl_version.png)
 
 ### Check WSL 2 Enablement on your System
-1. Press the Windows key on your keyboard
-2. In the search box, type "Windows PowerShell"
+1. Press the Windows key on your keyboard.
+2. In the search box, type "Windows PowerShell."
 3. Type or copy/paste the following command
     ```
     wsl --status
@@ -57,8 +57,8 @@ This section explains the steps required to install WSL 2 on Windows
 **Result**: If WSL 2 is enabled, then `Default Version: 2` is displayed.
 
 ### Check BIOS Virtualization Enablement on your System
-1. Press `Ctrl + Alt + Delete` keys on your keyboard. The Task Manager is displayed
-2. Go to the **Performance** tab
-3. Check if Virtualization field is enabled. The system should display `Virtualization: Enabled`
+1. Press `Ctrl + Alt + Delete` keys on your keyboard. The Task Manager pop-up window is displayed.
+2. Go to the **Performance** tab.
+3. Check if Virtualization field is enabled. The system should display `Virtualization: Enabled`.
 
 > **Next Page**: [Installation](./Installation.md)
