@@ -1,5 +1,5 @@
 # Installing Docker Desktop on Windows
-The following tasks must be completed to install Docker Desktop:
+The following tasks must be completed in the listed to install Docker Desktop on Windows:
 
 ## Step 1: Download and Install Docker Desktop on Windows through GUI
 1. Download [Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe) for Windows installer.
@@ -9,16 +9,25 @@ The following tasks must be completed to install Docker Desktop:
 > **Note**: After installation, you may choose to restart the system.
 
 ## Step 2: Check Docker Version and Open the Docker Desktop Application
-1. Open **Powershell** on your system
+1. Open **Windows PowerShell** on your system.
 2. Type or copy/paste the following command:
     ```
     docker --version
     ```
-    The result displays the version of the docker. <br/>
+    **Result**: The response displays the version of the docker. <br/>
     
-    > **Note**: In case the installation fails or docker is not completely installed, an error message, "The term 'docker' is not recognized" is displayed.
- 3. Press the Windows key and type, "Docker Desktop" in the search field
- 4. Open the application. The Service Agreement pop-up window is displayed
- 5. Select the "I accept the terms" checkbox.
- 6. 
-## Step 3: Run Sample Containerized Image of an Application using Docker
+    > **Note**: In case the installation fails or docker is not completely installed, an error message, "The term 'docker' is not recognized" is displayed. Try to re-run the process.
+ 3. Press the Windows key and type, "Docker Desktop" in the search field.
+ 4. Open the application. The Service Agreement pop-up window is displayed.
+ 5. Review the [Serice Agreement](https://docs.docker.com/subscription/#docker-desktop-license-agreement) and select the "I accept the terms" checkbox.
+ 6. Click **Accept**. Docker starts running and a message, "Docker is running" is displayed.
+ > **Tip**: You can also check the docker status from the **Show hiddden icons** widget located on the right-side of taskbar.
+
+## Step 3: Run Sample Tutorial using Docker
+1. Open **Windows PowerShell** on your system.
+2. Type or copy/paste the following command:
+   ```
+   docker run -dp 80:80 docker/getting-started
+   ```
+   **Result**: A unique container ID is created. <br/>
+   > **Note**: Refer the Troubleshooting section if you get an error response, "Ports are not available."
