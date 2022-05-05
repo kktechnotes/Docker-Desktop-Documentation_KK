@@ -1,5 +1,5 @@
 # Preinstallation
-This topic describes the installation requirements to install Docker Desktop on Windows.
+This topic describes the prerequisites required to install Docker Desktop on Windows.
 ## System Requirements
 Before installing the Docker Desktop application, your system must meet the following hardware and software requirements:
 - **RAM**: 4GB or above
@@ -10,11 +10,13 @@ Before installing the Docker Desktop application, your system must meet the foll
 - **Additional Configuration**: You must congifure the following components:
   - Enable Windows Subsystem for Linux Version 2 (WSL 2) in Windows
   - Enable Virtualization support at BIOS level
-### Setup: Enable WSL 2 in Windows Operating System (OS)
+### Setup: Enable WSL 2 on Windows Operating System (OS)
 This section explains steps to enable WSL 2 in Windows Operating System
-> Tip: Before installation, you can perform the steps to check if you already have WSL2 enabled on your system.
-1. 
+> **Tip**: Before installation, you can perform the steps to check if you already have WSL2 enabled on your system.
 
+> **Before you Begin**: You must enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-1---enable-the-windows-subsystem-for-linux) and [Check requirements for running WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-2---check-requirements-for-running-wsl-2) .
+1. Download [Linix Kernel Update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) package
+2. 
 
 #### Check WSL 2 on your system
 1. Press the Windows key on your keyboard
