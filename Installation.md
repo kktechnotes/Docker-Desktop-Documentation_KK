@@ -18,6 +18,7 @@ The following tasks must be completed to install Docker Desktop:
     
     > **Note**: In case the installation fails or docker is not completely installed, an error message, "The term 'docker' is not recognized" is displayed.
  3. Press the Windows key and type, "Docker Desktop" in the search field
- 4. Open the application. The landing page
- 5. 
+ 4. Open the application. The Service Agreement pop-up window is displayed
+ 5. Select the "I accept the terms" checkbox.
+ 6. 
 ## Step 3: Run Sample Containerized Image of an Application using Docker
