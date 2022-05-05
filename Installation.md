@@ -1,5 +1,5 @@
 # Installing Docker Desktop on Windows
-The following tasks must be completed in the listed to install Docker Desktop on Windows:
+The following tasks must be completed in the listed order:
 
 ## Step 1: Download and Install Docker Desktop on Windows through GUI
 1. Download [Docker Desktop](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe) for Windows installer.
@@ -19,7 +19,7 @@ The following tasks must be completed in the listed to install Docker Desktop on
     > **Note**: In case the installation fails or docker is not completely installed, an error message, "The term 'docker' is not recognized" is displayed. Try to re-run the process.
  3. Press the Windows key and type, "Docker Desktop" in the search field.
  4. Open the application. The Service Agreement pop-up window is displayed.
- 5. Review the [Serice Agreement](https://docs.docker.com/subscription/#docker-desktop-license-agreement) and select the "I accept the terms" checkbox.
+ 5. Review the [Service Agreement](https://docs.docker.com/subscription/#docker-desktop-license-agreement) and select the "I accept the terms" checkbox.
     ![Agreement](./docker_images/Aggreement.png)
  6. Click **Accept**. Docker starts running and a message, "Docker is running" is displayed.
  > **Tip**: You can also check the docker status from the **Show hiddden icons** widget located on the bottom-right of taskbar.
