@@ -10,8 +10,21 @@ Before installing the Docker Desktop application, your system must meet the foll
 - **Additional Configuration**: You must congifure the following components:
   - Enable Windows Subsystem for Linux Version 2 (WSL 2) in Windows
   - Enable Virtualization support at BIOS level
-### Setup: Enable Windows WSL2 in Windows Operating System (OS)
-This section explains steps to enable WSL 2 in Windows OS
-> Tip: Before installation, you can perform the steps to check if you have WSL2 enabled on your system.
+### Setup: Enable WSL 2 in Windows Operating System (OS)
+This section explains steps to enable WSL 2 in Windows Operating System
+> Tip: Before installation, you can perform the steps to check if you already have WSL2 enabled on your system.
+1. 
+
+
+#### Check WSL 2 on your system
+1. Press the Windows key on your keyboard
+2. In the search box, type "Windows Powershell"
+3. Paste the following command
+```
+{
+wsl --status
+}
+```
+Result: If WSL 2 is enabled, then `Default Version: 2` is displayed.
 
 
