@@ -19,4 +19,4 @@ This guide is developed for anyone who needs to install and work on Docker Deskt
 - [Docker Get Started Guide](https://docs.docker.com/get-started/overview/)
 - [Docker Git Repository](https://github.com/docker)
 
-> **Next Page**: [Introduction](./Preinstallation.md)
+> **Next Page**: [Preinstallation](./Preinstallation.md)
