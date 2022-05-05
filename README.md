@@ -1,5 +1,5 @@
 # Docker Desktop - Installation
-This guide explains installation steps of Docker Desktop and steps to run a sample application using Docker.
+This guide explains the process to install Docker Desktop and run a sample application using Docker.
 
 ## Content Outline for Assignment
 1. [Copyright Information](./copyright.md)
