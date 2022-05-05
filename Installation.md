@@ -21,7 +21,7 @@ The following tasks must be completed in the listed to install Docker Desktop on
  4. Open the application. The Service Agreement pop-up window is displayed.
  5. Review the [Serice Agreement](https://docs.docker.com/subscription/#docker-desktop-license-agreement) and select the "I accept the terms" checkbox.
  6. Click **Accept**. Docker starts running and a message, "Docker is running" is displayed.
- > **Tip**: You can also check the docker status from the **Show hiddden icons** widget located on the right-side of taskbar.
+ > **Tip**: You can also check the docker status from the **Show hiddden icons** widget located on the bottom-right of taskbar.
 
 ## Step 3: Run Sample Tutorial using Docker
 1. Open **Windows PowerShell** on your system.
