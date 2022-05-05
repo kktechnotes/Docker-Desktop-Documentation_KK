@@ -7,14 +7,14 @@
     1. Intended Audience
     2. Purpose of the Document
     3. Revision History
- 4. Getting Started
+4. Getting Started
     1. About Docker Desktop
     2. Basic Docker Concepts and Terminology
     3. Supported Reference Documents
 5. Installation Plan
-    1. Installation Workflow
-    2. Environment
-6. System Requirements
+    1. Installation Overview and Workflow
+    2. Environment Setup
+6. Preinstallation
    - For Windows
    - For Linux
    - For Mac
@@ -24,10 +24,9 @@
         - Install Docker Desktop through Command-Line Interface
      2. Installing Docker Desktop on Linux
      3. Installing Docker Desktop on Mac
-8. Starting Docker Desktop
-9. Running Sample Tutorial through CLI
-10. Lab: Running the Container Image on an Application on Docker Desktop
-11. Updating Docker Desktop
-13. Uninstalling Docker
-14. Troubleshooting
-15. FAQs
+8. Running Sample Tutorial through CLI
+9. Lab: Running the Container Image on an Application on Docker Desktop
+10. Updating Docker Desktop
+11. Uninstalling Docker
+12. Troubleshooting
+13. FAQs
