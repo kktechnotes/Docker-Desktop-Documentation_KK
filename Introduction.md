@@ -18,3 +18,5 @@ This guide is developed for anyone who needs to install and work on Docker Deskt
 - [Docker User Manual](https://docs.docker.com/desktop/windows/)
 - [Docker Get Started Guide](https://docs.docker.com/get-started/overview/)
 - [Docker Git Repository](https://github.com/docker)
+
+> **Next Page**: [Introduction](./Preinstallation.md)
