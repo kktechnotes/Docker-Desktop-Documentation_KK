@@ -35,4 +35,4 @@ The following tasks must be completed in the listed to install Docker Desktop on
    
    > **Note**: Refer the [Troubleshooting](./troubleshooting.md) section if you get an error response, "Ports are not available."
 <br/>
-> **Next Page**: [Lab-run](./Lab-run.md)
+> **Next Page**: [Lab-run](./lab%2Drun.md)
