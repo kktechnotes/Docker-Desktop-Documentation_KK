@@ -34,3 +34,5 @@ The following tasks must be completed in the listed to install Docker Desktop on
    **Result**: A unique container ID is created. <br/>
    
    > **Note**: Refer the [Troubleshooting](./troubleshooting.md) section if you get an error response, "Ports are not available."
+<br/>
+> **Next Page**: [Lab-run](./Lab-run.md)
