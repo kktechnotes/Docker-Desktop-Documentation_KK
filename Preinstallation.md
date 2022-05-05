@@ -1,4 +1,4 @@
-# Preinstallation
+# Docker Desktop Preinstallation Tasks
 This topic describes the system requirements and prerequisites required to install Docker Desktop on Windows.
 ## System Requirements
 Before installing the Docker Desktop application, your system must meet the following hardware and software requirements:
@@ -58,3 +58,5 @@ This section explains the steps required to install WSL 2 on Windows
 1. Press `Ctrl + Alt + Delete` keys on your keyboard. The Task Manager is displayed
 2. Go to the **Performance** tab
 3. Check if Virtualization field is enabled. The system should display `Virtualization: Enabled`
+
+> **Next Page**: [Installation](./Installation.md)

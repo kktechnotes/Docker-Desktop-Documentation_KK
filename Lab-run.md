@@ -47,3 +47,5 @@ This section describes the steps to run your first sample application. For demon
  2. To check the status, type `docker -p`. A list of container images running on the system is displayed.
  3. Open browser and type `http://localhost:90`. The application is accessed successfully.
 ![sampleapp](./docker_images/sample%20app.png)
+
+> **Next Page**: [Troubleshooting](troubleshoot.md)
