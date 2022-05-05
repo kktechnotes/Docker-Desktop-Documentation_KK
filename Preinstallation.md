@@ -43,6 +43,7 @@ This section explains the steps required to install WSL 2 on Windows
     wsl --set-default-version 2
     ```
   **Result**: The message, "The operation is completed successfully," is displayed.
+  ![wsl_version](./docker_images/wsl_version.png)
 
 ### Check WSL 2 Enablement on your System
 1. Press the Windows key on your keyboard
