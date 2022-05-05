@@ -1,6 +1,5 @@
 # Docker Desktop - Installation
 This guide explains installation steps of Docker Desktop and steps to run a sample application using Docker.
-> Note: Refer sample [Content Outline.md](./Content_Outline.md) for Installation Guide. <br/>
 
 ## Content Outline for Assignment
 1. [Copyright Information](./copyright.md)
