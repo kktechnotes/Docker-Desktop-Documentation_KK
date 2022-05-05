@@ -23,7 +23,7 @@ The following tasks must be completed in the listed to install Docker Desktop on
     ![Agreement](./docker_images/Aggreement.png)
  6. Click **Accept**. Docker starts running and a message, "Docker is running" is displayed.
  > **Tip**: You can also check the docker status from the **Show hiddden icons** widget located on the bottom-right of taskbar.
- >          ![docker running](./docker_images/docker-running.png)
+ >          ![docker running](./docker_images/docker%20running.png)
 
 ## Step 3: Run Sample Tutorial using Docker
 1. Open **Windows PowerShell** on your system.
