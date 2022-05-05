@@ -16,7 +16,7 @@ The following tasks must be completed in the listed order:
     ```
     **Result**: The response displays the version of the docker. <br/>
     
-    > **Note**: In case the installation fails or docker is not completely installed, an error message, "The term 'docker' is not recognized" is displayed. Try to re-run the process.
+    > **Note**: In case the installation fails or docker is not completely installed, an error message, "The term 'docker' is not recognized" is displayed. Try to re-install the docker installer package.
  3. Press the Windows key and type, "Docker Desktop" in the search field.
  4. Open the application. The Service Agreement pop-up window is displayed.
  5. Review the [Service Agreement](https://docs.docker.com/subscription/#docker-desktop-license-agreement) and select the "I accept the terms" checkbox.
