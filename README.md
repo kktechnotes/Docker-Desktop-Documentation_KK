@@ -7,7 +7,7 @@ This guide explains installation steps of Docker Desktop and steps to run a samp
 4. [Docker Desktop Preinstallation Tasks](./Preinstallation.md)
 5. [Installing and Running Docker Desktop on Windows through GUI](./Installation.md)
 6. [Lab: Running Container Image of an Application on Docker Desktop](./Lab-run.md)
-7. Troubleshooting
+7. [Troubleshooting](./troubleshoot.md)
 
 
 ## Things to Improve
