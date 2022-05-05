@@ -9,7 +9,7 @@ Before installing the Docker Desktop application, your system must meet the foll
   - Windows 10 64-bit: Home or Pro 2004 (build 19041) or higher, or Enterprise or Education 1909 (build 18363) or higher.
 - **Additional Configuration**: You must setup the following components:
   - [Enable Virtualization support at BIOS level](#setup-enable-virtualization-at-bios-level)
-  - [Enable Virtualization and Windows Subsystem for Linux (WSL) on Windows](#setup-enable-virtualization-and-wsl-on-windows)
+  - [Enable Virtualization and Windows Subsystem for Linux (WSL) on Windows](#setup-enable-virtualization-and-wsl-features-on-windows)
   - [Install WSL 2 on Windows](#setup-install-wsl-2-on-windows-operating-system)
 
 ## Setup: Enable Virtualization at BIOS level
@@ -21,7 +21,8 @@ This section explains the steps required to enable Virtualization feature at BIO
 3. Choose **Enable**.
 4. Press f10 on keyboard to save the settings.
 
-## Setup: Enable Virtualization and WSL on Windows
+## Setup: Enable Virtualization and WSL Features on Windows
+This section explains the steps required to enable Virtualization and WSL feature on Windows.
 > **Note**: You must have Windows administrator permissions.
 1. Open **Control Panel**.
 2. Search "Turn Windows feature on or off." The **Windows Feature** pop-up window is displayed.
@@ -29,7 +30,7 @@ This section explains the steps required to enable Virtualization feature at BIO
 4. Click **OK**.
 
 ## Setup: Install WSL 2 on Windows Operating System
-This section explains the steps required to enable WSL 2 on Windows Operating System
+This section explains the steps required to install WSL 2 on Windows
 > **Tip**: Before installation, you can perform the [steps to check](#check-wsl-2-enablement-on-your-system) if you already have WSL2 enabled on your system.
 
 > **Before you Begin**: You must enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-1---enable-the-windows-subsystem-for-linux) and [Check requirements for running WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-2---check-requirements-for-running-wsl-2) on your system and you must have administrator rights .
