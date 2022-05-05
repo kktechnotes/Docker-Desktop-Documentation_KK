@@ -6,7 +6,6 @@ This repository contains Docker Desktop installation, configuration and troubles
 2. [Introduction](./Introduction.md)
 3. Overview of Docker Desktop Installation
 4. Docker Desktop Preinstallation Tasks
-5. Installing Docker Desktop on Windows using GUI
-6. Getting Started Docker Desktop
-7. Lab: Running Container Image of an Application on Docker Desktop
-8. Troubleshooting
+5. Installing and Running Docker Desktop on Windows using GUI
+6. Lab: Running Container Image of an Application on Docker Desktop
+7. Troubleshooting
