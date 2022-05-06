@@ -7,7 +7,7 @@ This topic lists the improvements that should be made in the existing Docker doc
 2. The document is not divided based on perspective or Role-based. From basic to advance, every little detail is provided in one web file. <br/>
 **Example**: 
 	The roles can be Developers, Integration Engineers, Student, DevOps Engineer
-4. The semantic of dividing a topic into Concept, Task and Reference information is not followed.
+4. The semantics of dividing a topic into Concept, Task and Reference information is not followed.
 5. Information Flow in the TOC is incorrect <br/>
 **Example**: 
 	- System Requirements should be explained before Installation Steps
