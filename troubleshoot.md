@@ -15,7 +15,7 @@ Docker uses the following port mapping syntax `<your local port>: <docker contai
 After installation of Docker Desktop, on opening the application, you may encounter an error, "Docker Desktop stopping.." 
 
 ![docker_stop](./docker_images/Troubleshoot_WSL.png)
-This error may occur if one of the [preinstallation tasks](./Preinstallation.md) are not completed. For example, WSL version 2 is not installed on the system. Review the preinstallation tasks mentioned in the documentation.
+This error may occur if the [preinstallation tasks](./Preinstallation.md) are not completed. For example, WSL version 2 is not installed on the system. Review the preinstallation tasks mentioned in the documentation.
 
 ![troubleshoot_solution](./docker_images/troubleshoot-solution2.png)
 
