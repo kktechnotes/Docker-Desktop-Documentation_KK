@@ -3,15 +3,15 @@ This topic lists the improvements that should be made in the existing Docker doc
 > **Note**: The list contains only a few of the gaps. After detailed analysis and content restructuring, an exhaustive list can be prepared.
 
 
-1. Content Outline is neither user friendly nor readable. Please refer [Content Outline](./Content_Outline.md) topic to see an improved version.
+1. Content Outline is neither user friendly nor readable. Please refer [Content Outline](./Content_Outline.md) topic for Installation to see an improved version.
 2. The document is not divided based on perspective or Role-based. From basic to advance, every little detail is provided in one web file. <br/>
 **Example**: 
 	The roles can be Developers, Integration Engineers, Student, DevOps Engineer
-4. The semantics of dividing a topic into Concept, Task and Reference information is not followed.
+4. The semantic of dividing a topic into Concept, Task and Reference information is not followed.
 5. Information Flow in the TOC is incorrect <br/>
 **Example**: 
 	- System Requirements should be explained before Installation Steps
-	- Prerequisites to run the Docker Desktop are missing. WSL2 is mandatory but it is mentioned in another topic 
+	- Prerequisites to run the Docker Desktop are missing. For example, WSL2 is mandatory but it is mentioned in another topic. The Virtualization concept is also explained in another topic. 
 5. The Headings are ambiguous and not meaningful.<br/>
 **Example**: 
     - In TOC, the headings are "Mac", "Windows" and "Linux." It should have been *Installing Docker on Windows*, *Installing Docker on Linux*, *Installing Docker on Mac*
