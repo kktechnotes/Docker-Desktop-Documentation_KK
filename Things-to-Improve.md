@@ -27,4 +27,4 @@ This topic lists the improvements that should be made in the existing Docker doc
 6. Use of Incorrect English and Grammar throughout the content
 **Example**:
 	- Incorrect preposition used, than v/s to. The content contains, "If your admin account is different to your user account"
-	- After explicitly mentioning the topic **About Windows containers**, the lead line contains interrogative question "Looking for information on using Windows containers?"
+	- After explicitly mentioning the topic **About Windows containers**, the lead line contains interrogative statement "Looking for information on using Windows containers?"
